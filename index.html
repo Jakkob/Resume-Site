@@ -93,7 +93,7 @@
 		</div>
 	</div>
 	<!-- NAVBAR code block ENDS here: -->
-	<div class="col-md-6 col-sm-9 col-sm-offset-2 col-xs-9 col-xs-offset-2 content_block">
+	<div class="col-md-6 col-lg-6 col-md-offset-0 col-lg-offset-0 col-sm-9 col-sm-offset-2 col-xs-9 col-xs-offset-2 content_block">
 		<div class="content_container">
 			<h1 class="text-center">Skills:</h1>
 			<hr>
@@ -182,8 +182,13 @@
 
 <!-- Skrollr inclusion and initilization - Begin -->
 <script type="text/javascript" src="/scripts/skrollr.min.js"></script>
+<script type="text/javascript" src="/scripts/skrollr.menu.min.js"></script>
 <script type="text/javascript">
 	var s = skrollr.init();
+
+	skrollr.menu.init(s, {
+		animate: true
+	});
 </script>
 <!-- Skrollr inclusion and initilization - End -->
 </body>
