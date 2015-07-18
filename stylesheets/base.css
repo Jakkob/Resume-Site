@@ -1,0 +1,115 @@
+body {
+	font-family: Roboto;
+}
+h1, h2, h3, h4, h5, p, ul, ol, li, title {
+	color: white;
+}
+.gradientbkg {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#969696+0,969696+50,969696+100&amp;0.75+0,0.65+20,0.6+50,0.65+80,0.75+100 */
+background: -moz-linear-gradient(left,  rgba(150,150,150,0.75) 0%, rgba(150,150,150,0.65) 20%, rgba(150,150,150,0.6) 50%, rgba(150,150,150,0.65) 80%, rgba(150,150,150,0.75) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(150,150,150,0.75)), color-stop(20%,rgba(150,150,150,0.65)), color-stop(50%,rgba(150,150,150,0.6)), color-stop(80%,rgba(150,150,150,0.65)), color-stop(100%,rgba(150,150,150,0.75))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(150,150,150,0.75) 0%,rgba(150,150,150,0.65) 20%,rgba(150,150,150,0.6) 50%,rgba(150,150,150,0.65) 80%,rgba(150,150,150,0.75) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(150,150,150,0.75) 0%,rgba(150,150,150,0.65) 20%,rgba(150,150,150,0.6) 50%,rgba(150,150,150,0.65) 80%,rgba(150,150,150,0.75) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(150,150,150,0.75) 0%,rgba(150,150,150,0.65) 20%,rgba(150,150,150,0.6) 50%,rgba(150,150,150,0.65) 80%,rgba(150,150,150,0.75) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(150,150,150,0.75) 0%,rgba(150,150,150,0.65) 20%,rgba(150,150,150,0.6) 50%,rgba(150,150,150,0.65) 80%,rgba(150,150,150,0.75) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf969696', endColorstr='#bf969696',GradientType=1 ); /* IE6-9 */
+}
+.row {
+	width: 100%;
+}
+.image_container_top {
+	background-position: 0% 0%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto 150%;
+}
+.image_container_middle {
+	background-position: center -100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto 150%;
+}
+.image_container_bottom {
+	background-position: center -100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto 150%;
+}
+.first {
+	background-color: #76E8FF;
+	background-image: url("/code_image_blurred.jpg");
+	/*background-position: center center;
+	background-size: cover;*/
+}
+.first.content_container {
+	background-color: #76E8FF;
+}
+.second {
+	background-color: #0095B2;
+	background-image: url("/code_tile_image.jpg");
+}
+
+.third {
+	background-color: #FF7500;
+	background-image: url("/chem_image_blurred.jpg");
+	/*background-position: center center;
+	background-size: cover;*/
+}
+
+.fourth {
+	background-color: #FFB77A;
+	background-image: url("/chem_tile_image.jpg");
+}
+
+.fifth {
+	background-color: #B25200;
+	background-image: url("/compchem_image_blurred.jpg");
+}
+.content_block {
+	min-height: 100vh;
+	height: 100vh;
+	/*background-color: rgba(150,150,150,0.8);*/
+	background: -webkit-linear-gradient(left, rgba(150,150,150,0.75) 0%,rgba(150,150,150,0.65) 20%,rgba(150,150,150,0.6) 50%,rgba(150,150,150,0.65) 80%,rgba(150,150,150,0.75) 100%); /* Chrome10+,Safari5.1+ */
+}
+.nav-container {
+	/*background: rgba(150,150,150,0.8);*/
+	background: -webkit-linear-gradient(left, rgba(150,150,150,0.75) 0%,rgba(150,150,150,0.65) 20%,rgba(150,150,150,0.6) 50%,rgba(150,150,150,0.65) 80%,rgba(150,150,150,0.75) 100%); /* Chrome10+,Safari5.1+ */
+	position: relative;
+	width: 8rem;
+	padding: 0;
+	top: 50px;
+}
+.affix-top {
+	top: 100vh;
+}
+.affix {
+	top: 5vh;
+}
+.nav-block {
+	height: 10rem;
+	width: 8rem;
+	/*background-color: rgba(150,150,150,0.8);*/
+	background: -webkit-linear-gradient(left, rgba(150,150,150,0.75) 0%,rgba(150,150,150,0.65) 20%,rgba(150,150,150,0.6) 50%,rgba(150,150,150,0.65) 80%,rgba(150,150,150,0.75) 100%); /* Chrome10+,Safari5.1+ */
+}
+.nav-block label {
+	display: block;
+	color: white;
+}
+
+.content_container {
+	padding-top: 20rem;
+}
+.face {
+	height: 40%;
+	width: 40%;
+}
+.social-container {
+	height: 10rem;
+	width: 17rem;
+	padding: 0;
+}
+.social-block {
+	height: 10rem;
+	width: 8rem;
+	display: inline-block;
+}

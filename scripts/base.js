@@ -1,0 +1,1 @@
+//$(document).foundation('magellan', 'reflow');
