@@ -24,6 +24,9 @@ h1, h2, h3, h4, h5, p, ul, ol, li, title, label {
 	.content_container {
 		padding-top: 5vh;
 	}
+	.first .row .content_block .content_container {
+		padding-top: 2.5vh;
+	}
 	.fifth .row .content_block, .first .row .content_block {
 		height: 100vmax;
 	}
