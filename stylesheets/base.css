@@ -34,7 +34,7 @@ hr {
 		height: 100vmax;
 	}
 	.content_block {
-		height: 150vmax;
+		min-height: 150vmax;
 	}
 }
 .gradientbkg {
